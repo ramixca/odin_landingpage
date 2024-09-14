@@ -13,6 +13,10 @@ body {
     
 }
 
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 /* Navigation Bar */
 .navbar {
@@ -176,4 +180,17 @@ cite {
 .contact-us a:visited {
     color: #F9FAF8;
 
+}
+
+/* Footer */
+
+footer {
+    background: #1F2937;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    color:#F9FAF8;
+    padding: 48px;
 }
