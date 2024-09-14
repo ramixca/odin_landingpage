@@ -94,9 +94,15 @@ body {
     padding: 48px
 }
 
+.services h3 {
+    color: #1F2937;
+    font-size: 18px;
+}
+
 .services-content {
     display: flex;
     justify-content: space-around;
+    margin: 48px;
     /* max-width: 50%; */
 }
 
@@ -114,4 +120,60 @@ body {
     border: 5px solid #3882F6;
     border-radius: 12px;
     padding: 5px;
+}
+
+/* Reviews Section */
+
+.reviews {
+    background-color: #E5E7EB;
+    /* text-align: center; */
+}
+
+blockquote {
+    margin: 48px;
+    padding: 48px;
+    background-color: #E5E7EB;
+    font-style: italic;
+    padding: 50px;
+}
+
+blockquote p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+cite {
+    display: block;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    color:#1F2937;
+    padding-right: 20px;
+    text-align: right;
+}
+
+/* Contact Us Section */
+
+.contact-us {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 48px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.contact-us a {
+    display: inline-block;
+    border: 2px solid #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+
+.contact-us a:visited {
+    color: #F9FAF8;
+
 }
